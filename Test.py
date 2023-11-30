@@ -1,0 +1,21 @@
+from Rectangle import Rectangle,Parallelepiped
+rect1=Rectangle(6,4)
+rect2=Rectangle(2,3)
+print(rect1.ToString())
+print(rect2.ToString())
+print(rect1.Equals(rect2))
+print(f"The perimeter of rectangle 1 is: {(rect1.Perimetre())}")
+print(f"The perimeter of rectangle 2 is: {(rect2.Perimetre())}")
+print(f"The area of  rectangle 1 is: {(rect1.Surface())}")
+print(f"The area of rectangle 2 is: {(rect2.Surface())}")
+parall1=Parallelepiped(3,4,6)
+parall2=Parallelepiped(5,2,8)
+print(parall1.ToString())
+print(parall2.ToString())
+print(parall1.Equals(parall2))
+print(f"The surface of the parallelepiped 1 is: {(parall1.Surface())}")
+print(f"The surface of the parallelepiped 2 is:: {(parall2.Surface())}")
+print(f"The volume of the parallelepiped 1 is: {(parall1.Volume())}")
+print(f"The volume of the parallelepiped 2 is: {(parall2.Volume())}")
+
+
